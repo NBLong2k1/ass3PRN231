@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eBookStore
+build_property.RootNamespace = eBookStore
+build_property.ProjectDir = D:\FUSylabus\PRN231\Assisment\Assigment03Solution_HA150108\eBookStore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\FUSylabus\PRN231\Assisment\Assigment03Solution_HA150108\eBookStore
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/AuthorsManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxBdXRob3JzTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/EditAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0QXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/EditBookAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0Qm9va0F1dGhvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/EditPublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0UHVibGlzaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/PublisherAuthorManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxQdWJsaXNoZXJBdXRob3JNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/PublisherManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxQdWJsaXNoZXJNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Manager/UserManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxVc2VyTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Assisment/Assigment03Solution_HA150108/eBookStore/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bmumdqkunt

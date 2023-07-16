@@ -1,0 +1,99 @@
+﻿@page
+@model eBookStore.Pages.Account.RegisterModel
+@{
+	Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Login 04</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="~/css2/style.css" asp-append-version="true" />
+
+</head>
+<body>
+	<section class="ftco-section">
+		<div class="container">
+
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="img" >
+							<img src="~/images/book.png" alt="Italian Trulli">
+						</div>
+						<div class="login-wrap p-4 p-md-5">
+							<h3 class="mb-4" style="color: blue;">Book Store Register</h3>
+
+							<form method="post" class="signin-form">
+								<div class="form-group mb-3">
+									<label class="label" for="name">Email</label>
+									<input   asp-for="user.EmailAddress" type="email" class="form-control" placeholder="Email Address" required>
+								</div>
+								<div class="form-group mb-3">
+									<label class="label" for="password">Password</label>
+									<input   id="password" type="password" asp-for="user.Password" class="form-control" placeholder="Password" required>
+								</div>
+								<div class="form-group mb-3">
+									<label class="label" for="ConfirmPassword">Confirm Password</label>
+									<input id="confirmPassword" type="password" name="ConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+								</div>
+								<div id="error-message" style="color: red;"></div>
+								@if (TempData["Message"] != null)
+								{
+									<div class="alert alert-danger">
+										@TempData["Message"]
+									</div>
+								}
+								<div>
+									<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign up</button>
+								</div>
+								 
+								<div class="form-group d-md-flex">
+
+									<div class="w-50 text-md-right">
+										<a asp-page="/Account/Login" style="color: blue;">Already an user ?</a>
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		document.querySelector('form').addEventListener('submit', function (event) {
+			event.preventDefault(); // Prevent form submission
+
+			var password = document.getElementById('password').value;
+			var confirmPassword = document.getElementById('confirmPassword').value;
+			var errorMessage = document.getElementById('error-message');
+
+			if (password !== confirmPassword) {
+				errorMessage.textContent = "Passwords do not match.";
+			} else {
+				// Passwords match, you can proceed with form submission
+				// Here you can add additional logic if needed
+				errorMessage.textContent = "";
+				this.submit(); // Submit the form
+			}
+		});
+
+	</script>
+
+	<script src="~/js2/jquery.min.js"></script>
+	<script src="~/js2/popper.js"></script>
+	<script src="~/js2/bootstrap.min.js"></script>
+	<script src="~/js2/main.js"></script>
+
+</body>
+</html>
